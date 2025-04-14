@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ELEMENT root ANY>
+  <!ENTITY xxe SYSTEM "file:///etc/testfile">
+]>
+<root>
+  &xxe;
+</root>
+ 
